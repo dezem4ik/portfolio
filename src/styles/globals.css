@@ -1,27 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
+
+  color: #C8C8C8;
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  180deg, #CFCFCF 1.48%,
+   #626262 29.61%,
+   #2E2E2E 59.81%,
+   #121111 101.48%);
 }
+
+.container {
+  margin: 100px auto 0;
+  width: 1200px;
+  background: #181818;
+}
+
+.headerEmail {
+  display: flex;
+  font-family: 'Jura', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #CFCFCF;
+  
+  }
+
+  .innerContainer {
+    padding: 30px;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .header {
+    display: flex;
+    flex: 0 auto;
+    justify-content: space-between;
+  }
+
+
+  .avatar {
+    border-radius: 100px;
+  }
+
+  .header a {
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #CFCFCF;
+  }
+
+  .divider {
+    margin: 0 7px;
+    color: #CFCFCF;
+  }
+
+  .Denisname {
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #C8C8C8;
+    margin-bottom: 14px;
+  }
+
+  .Opisanie {
+    padding: 30px;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 32px;
+  }
+
+  .Opisaniepodfoto {
+    padding: 0 30 0;
+    width: 400 px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(89.98deg, #CFCFCF 28.15%, rgba(255, 255, 255, 0) 88.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .middleContainer {
+    padding: 30px;
+    margin: 0 auto;
+    background: #1C1C1C;
+    border: 1px solid #232323;
+  }
+  
+  .Osebe {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Jura', sans-serif;
+  }
+
+  .podvalOpisanie {
+    font-family: 'Play', sans-serif;
+    padding: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(89.98deg, #CFCFCF 28.15%, rgba(255, 255, 255, 0) 88.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+  }
+
+  .podval {
+    padding:30px;
+    display: flex;
+    flex: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .podval div {
+    flex: 0 0 23%;
+    background: #1C1C1C;
+    padding: 30px;
+
+  }
+
+  .zagolovok {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    margin: 0 auto 7px;
+    display: block;
+  }
+
+  .opisaniezagolovok {
+    font-family: 'Jura', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .imgs {
+    margin: 0 auto 7px;
+  }
